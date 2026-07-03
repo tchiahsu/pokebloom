@@ -1,4 +1,4 @@
-# pokebloom
+# PokeBloom
 Pokebloom is an 8-bit-style, single-player creature-collecting RPG. Players roam a pixel-art overworld, trigger wild encounters in tall grass and other zones, catch and train creatures, manage a party and item inventory, and battle their way through eight gym leaders to become champion.
 
 ## Tech Stack
@@ -10,21 +10,6 @@ Pokebloom is an 8-bit-style, single-player creature-collecting RPG. Players roam
 - **Database:** PostgreSQL
 - **ORM:** Prisma
 - **External data:** PokeAPI (species/move data and sprites, cached locally)
-
-## Project Structure
-
-```
-pokedale/
-├── client/           # React + Phaser frontend (Vite)
-│   ├── src/
-│   └── package.json
-├── server/           # Express + Socket.io backend
-│   ├── src/
-│   ├── prisma/
-│   │   └── schema.prisma
-│   └── package.json
-└── README.md
-```
 
 ## Prerequisites
 
@@ -142,7 +127,3 @@ The game should now be running at `http://localhost:5173`.
 - [ ] Evolution (level-based and item-based)
 - [ ] First gym leader and badge system
 - [ ] Remaining 7 gyms + champion route
-
-## License
-
-TBD
